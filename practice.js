@@ -40,7 +40,7 @@ let devMountainGoal = null;
 
 //Code here
 function greeting(name){
-  return "Hello " + name; 
+  return "Hello, " + name; 
 }
 //////////////////PROBLEM 7////////////////////
 
@@ -48,8 +48,8 @@ function greeting(name){
 //Give it the same functionality as the function greeting in Problem 6.
 
 //Code Here
-function newGreeting(name){
-  return "Hello" + name; 
+ let newGreeting = function(name){
+  return "Hello, " + name; 
 }
 //////////////////PROBLEM 8////////////////////
 
@@ -85,13 +85,13 @@ let devMountainClassPet = dog.name;
 // Code here
 function nameCheck(name){
   if(name === "Steven"){
-    return 'What is up Steven';
+    return 'What is up Steven?';
   }
   else if(name === "Bryan"){
-    return 'Hey Bryan';
+    return 'Hey Bryan!';
   }
   else{
-  return "Cool name," + name;
+  return "Cool name, " + name;
   }
 }
 //////////////////PROBLEM 11////////////////////
